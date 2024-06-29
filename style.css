@@ -1,0 +1,359 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav-bar{
+    height: 60px;
+    background-color:#669bbc;
+    color:#212529;
+    display: flex;
+    font-size: large;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    
+    font-size: 25px;
+    position: relative;
+    right: 50px;
+    color:rgba(250, 0, 0, 0.85);
+}
+.border:hover{
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: #212529;
+}
+.aboutimg{
+    height: 400px;
+    width:50%;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.abouttext{
+    position: relative;
+    margin-left: 550px;
+    bottom: 400px;
+    height: 400px;
+} 
+h1:hover{
+    text-decoration: underline;
+}
+h4{
+    margin: 10px;
+    margin-top: 30px;
+}
+body{
+    background-color: #fdf0d5;
+}
+.request{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.tell{
+    height: 400px;
+    width: 40%;
+    border: 2px solid black;
+    background-color: #6c757d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input1{
+    height: 50px;
+    width: 60%;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.queris{
+    position: relative;
+    left: 265px;
+    top: 20px;
+    font-size: 23px;
+    text-decoration: underline;
+    
+}
+button{
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border: 1px solid black;
+    width: 220px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    justify-content: space-evenly;
+    background-color: #ccd5ae;
+    border-radius: 5px;
+   
+}
+.momo{
+    color: #780000;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.menutitle{
+    color: #000814;
+    font-size: 20px;
+    position: relative;
+    left: 80px;
+}
+.hero-img{
+    background-size: cover;
+    height: 250px;
+    position: relative;
+    left: 250px;
+    width: 750px;
+    bottom: 490px;
+}
+.momo:hover{
+    /* border: 1px solid #0d1b2a; */
+    color: #0d1b2a;
+   
+}
+.order{
+    height: 50px;
+    width: 75%;
+    border: 1px solid black;
+    position: relative;
+    bottom: 480px;
+    left: 250px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: #ccd5ae;
+    padding-left: 10px;
+}
+.order:hover{
+    color: #fb8500;
+}
+.buger{
+    height: 160px;
+    width: 150px;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 470px;
+    left: 25%;
+}
+.bugerimg{
+    height:130px ;
+    width: 150px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.bugertext{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+}
+.bugertext:hover{
+    background-color:#ffb703;
+    color: #f1faee;
+}
+.pizza{
+    height: 160px;
+    width: 150px;
+    position: relative;
+    bottom: 630px;
+    left: 41%;
+}
+.pizzaimg{
+    height:130px ;
+    width: 150px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.pizzatext{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+}
+.pizzatext:hover{
+    background-color:#ffb703;
+    color: #f1faee;
+}
+.Chicken{
+    height: 160px;
+    width: 150px;
+    position: relative;
+    bottom: 789px;
+    left: 57%;
+}
+.Chickenimg{
+    height:130px ;
+    width: 150px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.Chickentext{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+}
+.Chickentext:hover{
+    background-color:#ffb703;
+    color: #f1faee;
+}
+.drinks{
+    height: 160px;
+    width: 150px;
+    position: relative;
+    bottom: 950px;
+    left:73%;
+}
+.drinksimg{
+    height:130px ;
+    width: 150px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.drinkstext{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+}
+.drinkstext:hover{
+    background-color:#ffb703;
+    color: #f1faee;
+}
+.biryani{
+    height: 160px;
+    width: 150px;
+    position: relative;
+    bottom: 1110px;
+    left:89%;
+}
+.biryaniimg{
+    height:130px ;
+    width: 150px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.biryanitext{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+}
+.biryanitext:hover{
+    background-color:#ffb703;
+    color: #f1faee;
+}
+.branch{
+    background-color: #0d1b2a;
+    color: #edede9;
+    height: 300px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 380px;
+    left: 16px;
+}
+.branch:hover{
+    background-color:#1b263b ;
+    color: #ccd5ae;
+    
+}
+.ourbranch{
+    font-size: 21px;
+    position: relative;
+    left: 30%;
+    font-weight: bold;
+    color: #ffbe0b;
+}
+.ravi{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.contactus{
+    background-color: #0d1b2a;
+    color: #edede9;
+    height: 300px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 683px;
+    left: 350px;
+}
+.facelogo{
+    text-decoration: none;
+    color: #edede9;
+}
+.contacttex{
+    font-size: 21px;
+    color: #ffbe0b;
+    margin-left: 30%;
+    font-weight: bold;
+}
+.number{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.contactus:hover{
+    background-color:#1b263b ;
+    color: #ccd5ae;
+    
+}
+.patner{
+    background-color: #0d1b2a;
+    color: #edede9;
+    height: 300px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 988px;
+    left: 68%;
+}
+.patnership{
+    font-size: 21px;
+    position: relative;
+    left: 30%;
+    font-weight: bold;
+    color: #ffbe0b;
+}
+.firstpatner{
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+.patner:hover{
+    background-color:#1b263b ;
+    color: #ccd5ae;
+}
