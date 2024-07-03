@@ -50,43 +50,37 @@ h4{
 }
 body{
     background-color: #fdf0d5;
-}
-.request{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-.tell{
-    height: 400px;
-    width: 40%;
-    border: 2px solid black;
-    background-color: #6c757d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.input1{
-    height: 50px;
-    width: 60%;
-    position: relative;
-    right: 20px;
-    bottom: 20px;
-    border-radius: 5px;
-    outline: none;
-}
-.queris{
-    position: relative;
-    left: 265px;
-    top: 20px;
-    font-size: 23px;
-    text-decoration: underline;
-    
+} 
+.signin{
+    height: 50%;
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #219ebc;
+    padding: 50px,60px,70px;
+    text-align: center;
+    border-radius: 8px;
 }
 button{
-    height: 50px;
+    margin-top: 30px;
+    height: 27px;
+    width: 70px;
+    font-size: 17px;
+    font-size: 18px;
+    background-color: #dad7cd;
+}
+input{
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
     border-radius: 5px;
-    position: relative;
-    bottom: 20px;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    background-color: white;
 }
 .menu{
     display: flex;
