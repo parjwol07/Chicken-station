@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
 }
+/* These is for Home */
 .nav-bar{
     height: 60px;
     background-color:#669bbc;
@@ -11,6 +12,19 @@
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
+}
+.Search{
+    height: 20px;
+    width: 25%; 
+    border-radius: 5px;   
+    border: 0; 
+}
+.icon{
+    height: 19px;
+    background-color: yellow;
+    position: relative;
+    right: 55px;
+    border-radius:5px ;
 }
 /* .btn1{
     background-color: white;
@@ -34,12 +48,13 @@
     color:rgba(250, 0, 0, 0.85);
 }
 .border:hover{
-    border: 1px solid black;
+    border-bottom: 2px solid black;
 }
 a{
     text-decoration: none;
     color: #212529;
 }
+/* These is for About us */
 .aboutimg{
     height: 400px;
     width:50%;
@@ -65,6 +80,7 @@ h4{
 body{
     background-color: #fdf0d5;
 } 
+/* These is for Log in */
 .signin{
     height: 50%;
     width: 90%;
@@ -86,7 +102,7 @@ button{
     font-size: 18px;
     background-color: #dad7cd;
 }
-input{
+.input1{
     margin-top: 30px;
     height: 30px;
     width: 300px;
@@ -96,6 +112,7 @@ input{
     background: transparent;
     background-color: white;
 }
+/* These is for Home */
 .menu{
     display: flex;
     flex-direction: column;
@@ -135,6 +152,7 @@ input{
    
 }
 .order{
+    color: #780000;
     height: 50px;
     width: 75%;
     border: 1px solid black;
@@ -148,7 +166,7 @@ input{
     padding-left: 10px;
 }
 .order:hover{
-    color: #fb8500;
+    color: #0d1b2a;
 }
 .buger{
     height: 160px;
@@ -271,6 +289,7 @@ input{
     background-color:#ffb703;
     color: #f1faee;
 }
+/* These is for About us */
 .branch{
     background-color: #0d1b2a;
     color: #edede9;
@@ -364,4 +383,42 @@ input{
 .patner:hover{
     background-color:#1b263b ;
     color: #ccd5ae;
+}
+/* These is for Home */
+.offer{
+    color: #780000;
+    position: relative;
+    bottom: 1070px;
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 50px;
+    background-color:  #ccd5ae;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.offer:hover{
+    color: #0d1b2a;
+}
+.offers{
+    height: 160px;
+    width: 150px;
+    position: relative;
+    bottom: 1050px;
+    left:2%;
+}
+.offer-img{
+    border-radius: 5px;
+
+}
+.offertext{
+    width: 265px;
+    font-size: 25px;
+    border: 1px solid black;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.offertext:hover{
+    background-color:#ffb703;
+    color: #f1faee;
 }
