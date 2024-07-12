@@ -422,3 +422,87 @@ button{
     background-color:#ffb703;
     color: #f1faee;
 }
+.offer2{
+    height: 160px;
+    width: 150px;
+    position: relative;
+    bottom: 1210px;
+    left:33%;
+}
+.offersimg{
+    border-radius: 5px;
+    height: 300px;
+    width: 700px;
+}
+footer{
+    color: white;
+}
+.footer-color{
+    height: 350px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    bottom: 1050px;
+    background-color: #023047;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 50px;
+    margin-top: 20px;
+}
+.footer-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.copyright{
+    width: 200px;
+    color: white;
+    position: absolute;
+    left: 96px;
+    margin-top: 66px;
+
+}
+.footer-aboutus{
+    position: absolute;
+    left: 357px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-contactus{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.footer-patner{
+    position: absolute;
+    left: 557px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.patners-name{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+
+}
+.footer-branch{
+    position: absolute;
+    left: 757px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.branch-name{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+}
